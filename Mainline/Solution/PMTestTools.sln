@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{058B1C52-F9DF-425B-8A5E-CF5C05448614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Souces", "Souces", "{4F9414F5-59D2-447C-864C-299C7AF9C958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PauloMorgado.TestTools.VisualStudio", "Sources\PauloMorgado.TestTools.VisualStudio\PauloMorgado.TestTools.VisualStudio.csproj", "{4F844406-BDF2-4FBB-8B8F-77B7D3F15A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PauloMorgado.TestTools.TypeMock", "Sources\PauloMorgado.TestTools.TypeMock\PauloMorgado.TestTools.TypeMock.csproj", "{D8FB6248-8042-40AE-8A38-A680C38454F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{10A08BC4-2A3B-410A-92CF-1C049BCCA170}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Common\CommonAssemblyInfo.cs = Sources\Common\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PauloMorgado.TestTools", "Sources\PauloMorgado.TestTools\PauloMorgado.TestTools.csproj", "{397F92DD-4877-4A25-AB77-F270054634F5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs10.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sources\\PauloMorgado.TestTools.VisualStudio\\PauloMorgado.TestTools.VisualStudio.csproj
+		SccProjectTopLevelParentUniqueName1 = PMTestTools.sln
+		SccProjectName1 = Sources/PauloMorgado.TestTools.VisualStudio
+		SccLocalPath1 = Sources\\PauloMorgado.TestTools.VisualStudio
+		SccProjectUniqueName2 = Sources\\PauloMorgado.TestTools.TypeMock\\PauloMorgado.TestTools.TypeMock.csproj
+		SccProjectTopLevelParentUniqueName2 = PMTestTools.sln
+		SccProjectName2 = Sources/PauloMorgado.TestTools.TypeMock
+		SccLocalPath2 = Sources\\PauloMorgado.TestTools.TypeMock
+		SccProjectUniqueName3 = Sources\\PauloMorgado.TestTools\\PauloMorgado.TestTools.csproj
+		SccProjectTopLevelParentUniqueName3 = PMTestTools.sln
+		SccProjectName3 = Sources/PauloMorgado.TestTools
+		SccLocalPath3 = Sources\\PauloMorgado.TestTools
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F844406-BDF2-4FBB-8B8F-77B7D3F15A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F844406-BDF2-4FBB-8B8F-77B7D3F15A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F844406-BDF2-4FBB-8B8F-77B7D3F15A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F844406-BDF2-4FBB-8B8F-77B7D3F15A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FB6248-8042-40AE-8A38-A680C38454F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FB6248-8042-40AE-8A38-A680C38454F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FB6248-8042-40AE-8A38-A680C38454F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FB6248-8042-40AE-8A38-A680C38454F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397F92DD-4877-4A25-AB77-F270054634F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397F92DD-4877-4A25-AB77-F270054634F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397F92DD-4877-4A25-AB77-F270054634F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397F92DD-4877-4A25-AB77-F270054634F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F844406-BDF2-4FBB-8B8F-77B7D3F15A0B} = {4F9414F5-59D2-447C-864C-299C7AF9C958}
+		{D8FB6248-8042-40AE-8A38-A680C38454F9} = {4F9414F5-59D2-447C-864C-299C7AF9C958}
+		{10A08BC4-2A3B-410A-92CF-1C049BCCA170} = {4F9414F5-59D2-447C-864C-299C7AF9C958}
+		{397F92DD-4877-4A25-AB77-F270054634F5} = {4F9414F5-59D2-447C-864C-299C7AF9C958}
+	EndGlobalSection
+EndGlobal
