@@ -1,4 +1,16 @@
-﻿namespace PauloMorgado.TestTools.VisualStudio.UnitTesting
+﻿//-----------------------------------------------------------------------
+// <copyright file="PrivateTypeExtensions.cs"
+//            project="PauloMorgado.TestTools.VisualStudio"
+//            solution="PMTestTools"
+//            assembly="PauloMorgado.TestTools.VisualStudio"
+//            company="Paulo Morgado">
+//     Copyright (c) Paulo Morgado. All rights reserved.
+// </copyright>
+// <author>Paulo Morgado</author>
+// <summary>Provides extensions to the PrivateType class.</summary>
+//-----------------------------------------------------------------------
+
+namespace PauloMorgado.TestTools.VisualStudio.UnitTesting
 {
     using System;
     using System.Linq.Expressions;

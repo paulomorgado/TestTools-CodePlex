@@ -62,7 +62,6 @@
     <Compile Include="ArrangeActAssert\IsolateShadowed.cs" />
     <Compile Include="ArrangeActAssert\IVerifyHandler.cs" />
     <Compile Include="ArrangeActAssert\ShadowedVerifyHandler.cs" />
-    <Compile Include="ExpressionHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

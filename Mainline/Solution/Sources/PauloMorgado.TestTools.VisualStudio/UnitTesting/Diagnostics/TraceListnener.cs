@@ -1,9 +1,21 @@
-﻿namespace PauloMorgado.TestTools.VisualStudio.UnitTesting.Diagnostics
+﻿//-----------------------------------------------------------------------
+// <copyright file="TraceListnener.cs"
+//            project="PauloMorgado.TestTools.VisualStudio"
+//            solution="PMTestTools"
+//            assembly="PauloMorgado.TestTools.VisualStudio"
+//            company="Paulo Morgado">
+//     Copyright (c) Paulo Morgado. All rights reserved.
+// </copyright>
+// <author>Paulo Morgado</author>
+// <summary>A TraceListnener thatthrows an AssertFailedException exception when its Fail method is called.</summary>
+//-----------------------------------------------------------------------
+
+namespace PauloMorgado.TestTools.VisualStudio.UnitTesting.Diagnostics
 {
     /// <summary>
     /// A <see cref="T:System.Diagnostics.TraceListnener"/> that
     /// throws an <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> exception
-    /// when the <see cref="M:Fail"/> is called.
+    /// when the <see cref="M:Fail"/> method is called.
     /// </summary>
     public class TraceListnener : global::System.Diagnostics.TraceListener
     {

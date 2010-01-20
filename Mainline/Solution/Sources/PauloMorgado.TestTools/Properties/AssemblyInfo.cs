@@ -1,6 +1,21 @@
-﻿using System.Reflection;
+﻿//-----------------------------------------------------------------------
+// <copyright file="AssemblyInfo.cs"
+//            project="PauloMorgado.TestTools"
+//            solution="PMTestTools"
+//            assembly="PauloMorgado.TestTools"
+//            company="Paulo Morgado">
+//     Copyright (c) Paulo Morgado. All rights reserved.
+// </copyright>
+// <author>Paulo Morgado</author>
+// <summary>>Assembly information.</summary>
+//-----------------------------------------------------------------------
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Security.Permissions;
+
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, UnmanagedCode = false)]
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
