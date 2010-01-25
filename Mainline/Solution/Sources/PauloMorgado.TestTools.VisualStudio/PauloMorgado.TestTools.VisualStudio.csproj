@@ -55,7 +55,7 @@
     <Compile Include="..\Common\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="UnitTesting\Diagnostics\TraceListnener.cs" />
+    <Compile Include="UnitTesting\Diagnostics\TraceListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTesting\PrivateTypeExtensions.cs" />
   </ItemGroup>

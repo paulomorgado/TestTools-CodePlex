@@ -17,17 +17,17 @@ namespace PauloMorgado.TestTools.VisualStudio.UnitTesting.Diagnostics
     /// throws an <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException"/> exception
     /// when the <see cref="M:Fail"/> method is called.
     /// </summary>
-    public class TraceListnener : global::System.Diagnostics.TraceListener
+    public class TraceListener : global::System.Diagnostics.TraceListener
     {
         /// <summary>
         /// A default instance of the <see cref="T:TraceListnener"/> to prevent repeated instantiations.
         /// </summary>
-        public static readonly TraceListnener Default = new TraceListnener();
+        public static readonly TraceListener Default = new TraceListener();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="T:TraceListnener"/> class.
         /// </summary>
-        protected TraceListnener()
+        protected TraceListener()
         {
             this.Name = "Testing Trace Listener";
         }
@@ -36,7 +36,7 @@ namespace PauloMorgado.TestTools.VisualStudio.UnitTesting.Diagnostics
         /// Initializes a new instance of the <see cref="T:TraceListnener"/> class.
         /// </summary>
         /// <param name="name">The name of the <see cref="T:TraceListener"/>.</param>
-        protected TraceListnener(string name)
+        protected TraceListener(string name)
             : base(name)
         {
         }
